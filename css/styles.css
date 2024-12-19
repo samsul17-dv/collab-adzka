@@ -147,7 +147,7 @@ body {
 /* End Style Mobile */
 
 /* Style Desktop */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     .navbar-action-mobile {
         display: none;
     }
@@ -235,8 +235,8 @@ body {
         color: white;
      }
 
-     .button-desktop{
-        margin-left: 10px;
+    .button {
+        margin-right: 100px;
     }
 
     .button .btn{
@@ -256,6 +256,7 @@ body {
         background-color: #007cff;  
         border: none;
         border-radius: 5px;
+     }
 }
 
 /* End Style Desktop */
