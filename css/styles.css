@@ -250,7 +250,7 @@ body {
 
     .index_card_produk_mobile {
         position: absolute;
-        top:36.5rem;
+        top: 36.5rem;
         left: 1rem;
         right: 1rem;
         z-index: 999;
@@ -293,6 +293,11 @@ body {
     .navbar-action-mobile {
         display: none;
     }
+
+    .card_mobile {
+        display: none;
+    }
+
     .navbar-mobile {
         display: none;
     }
@@ -305,15 +310,15 @@ body {
         display: none;
     }
 
-    .header-bg-desktop{
+    .header-bg-desktop {
         position: absolute;
     }
 
-    .header-bg-desktop img{
+    .header-bg-desktop img {
         width: 100vw;
     }
 
-    .navbar-desktop{
+    .navbar-desktop {
         background-color: transparent;
         position: fixed;
         top: 0;
@@ -321,160 +326,245 @@ body {
         margin-top: -10px;
     }
 
-   
-    .logo img{
-        width:20%;
+
+    .logo img {
+        width: 20%;
         margin-left: 100px;
     }
 
-    .navbar-menu{
+    .navbar-menu {
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin-right: 10px;
     }
 
-    .navbar-menu nav ul{
+    .navbar-menu nav ul {
         display: flex;
         list-style-type: none;
         align-items: center;
         margin-left: -220px;
     }
 
-    .navbar-menu nav ul li{
+    .navbar-menu nav ul li {
         padding: 6px 12px;
     }
 
-    .navbar-menu ul .partner{
+    .navbar-menu ul .partner {
         width: 20px;
         height: 20px;
     }
 
-    .navbar-menu ul li a{
+    .navbar-menu ul li a {
         text-decoration: none;
         color: white;
         font-weight: 500;
         font-size: 14px;
     }
 
-    .navbar-menu ul .bendera-indonesia{
+    .navbar-menu ul .bendera-indonesia {
         width: 20px;
         height: 20px;
         margin-right: 10px;
     }
 
 
-     .navbar-menu p{
+    .navbar-menu p {
         color: white;
         margin-top: 20px;
         display: flex;
         align-items: center;
-     }
-     .navbar-menu .arrowdrop img{
-        width: 18px;
-     }
+    }
 
-     
+    .navbar-menu .arrowdrop img {
+        width: 18px;
+    }
+
+
     .button {
         margin-right: 100px;
         margin-left: -120px;
     }
 
 
-    .button .btn{
+    .button .btn {
         padding: 5px 16px;
         margin-left: 5px;
         background-color: transparent;
         border: none;
         font-size: 13.5px;
-        color: white ;
+        color: white;
         font-weight: 550;
-     }
-     .button .btn-1{
+    }
+
+    .button .btn-1 {
         padding: 8px 18px;
         font-size: 13.5px;
-        color: white ;
+        color: white;
         font-weight: 550;
-        background-color: #007cff;  
+        background-color: #007cff;
         border: none;
         border-radius: 5px;
-     }
+    }
 
-     .content{
+    .content {
         position: absolute;
         left: 50%;
         transform: translate(-50%);
         text-align: center;
         margin-top: 7rem;
-     }
-     .content h1{
-        color: white;
-     }
+    }
 
-     .search input{
+    .content h1 {
+        color: white;
+    }
+
+    .search input {
         width: 550px;
-        height:50px;
+        height: 50px;
         border-radius: 50px;
         border: none;
         outline: none;
         text-indent: 40px;
-     }
+    }
 
-     .search{
+    .search {
         display: flex;
         align-items: center;
-     }
+    }
 
-     .search img{
+    .search img {
         position: absolute;
         margin-left: 15px;
         width: 22px;
         opacity: 50%;
-     }
+    }
 
 
-     .content-icon {
+    .content-icon {
         margin-top: 1rem;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
     }
 
-     .content-icon-bottom {
+    .content-icon-bottom {
         margin-top: -1rem;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
     }
-    
+
     .content-icon-menu {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 10px;
     }
-    
+
+    .content-icon-menu h5 {
+        font-size: 12px;
+    }
+
     .content-icon-menu img {
-        background-color: rgba(255, 255, 255, 0.5); 
+        background-color: rgba(255, 255, 255, 0.5);
         border-radius: 50%;
         padding: 10px;
-        width: 50px;
+        width: 40px;
         transition: background-color 0.3s;
     }
-    
+
     .content-icon-menu img:hover {
-        background-color: rgba(255, 255, 255, 1); 
+        background-color: rgba(255, 255, 255, 1);
     }
-    
+
     .content-icon-menu h5 {
-        margin-top: 10px;
+        margin-top: 5px;
         color: var(--color-primary);
     }
-    
 
-     
-    
-    
+    .auya {
+        position: absolute;
+        top: 32rem;
+    }
+
+    .auya p {
+        width: 100vw;
+        height: 30px;
+        background-color: #eaf1f9;
+        text-align: center;
+        line-height: 30px;
+        font-size: 12px;
+    }
+
+    .container {
+        position: absolute;
+        top: 35rem;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container .judul {
+        display: flex;
+        align-items: center;
+        margin: 0 100px;
+    }
+
+    .container img {
+        width: 40px;
+        margin-right: 10px;
+
+    }
+
+
+
+    .navbar-hero ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0 60px;
+        margin-top: 10px;
+    }
+
+    .navbar-hero ul li {
+        margin-right: 10px;
+    }
+
+    .navbar-hero ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        border: 1px solid rgb(218, 210, 210);
+        padding: 8px 16px;
+        border-radius: 20px;
+
+    }
+
+
+    .container-card {
+        position: absolute;
+        margin: 0 100px;
+        margin-top: 40px;
+    }
+
+    .card {
+        width: 200px;
+        height: 300px;
+        border: none;
+        background-color: var(--color-primary);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 20px;
+
+    }
+
+    .card img {
+        width: 200px;
+        border-radius: 10px;
+    }
+
+
 }
+
+
+
 
 /* End Style Desktop */
