@@ -62,8 +62,8 @@ body {
 
 /* Style Desktop */
 @media only screen and (min-width: 768px) {
-    .header-bg-mobile img {
-        display: none;
+    .header-bg-destop img {
+        width: 100%;
     }
 }
 
