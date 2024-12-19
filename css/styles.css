@@ -320,7 +320,7 @@ body {
 
     .navbar-desktop {
         background-color: transparent;
-        position: fixed;
+        position: absolute;
         top: 0;
         width: 100%;
         margin-top: -10px;
@@ -539,26 +539,61 @@ body {
 
     }
 
+    ul li.active a {
+        color: blue;
+        font-weight: bold;
+        border: 2px solid blue; /* Menambahkan border */
+        border-radius: 5px; /* Opsional: membuat sudut melengkung */
+    }
+
 
     .container-card {
         position: absolute;
         margin: 0 100px;
         margin-top: 40px;
+        display: flex;
+        
     }
 
     .card {
-        width: 200px;
-        height: 300px;
+        width: 205px;
+        height: 290px;
         border: none;
         background-color: var(--color-primary);
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        border-radius: 20px;
+        border-radius: 10px;
+        margin-right: 15px;
+        margin-top: -18px;
+    }
 
+    .card h5{
+        margin-left: 10px;
+        margin-top: 5px;
+        color: #2d2a2a;
+    }
+
+    .card p{
+        margin-left: 10px; 
+        font-size: 12px;
+        color: #534d4d;
+        line-height: 0.5;
+    }
+
+    .a {
+        margin-top: -12px;
+    }
+
+    .card h4{
+        margin-left: 10px; 
+        margin-top: 40px;
+        color: rgb(231, 58, 58);
     }
 
     .card img {
-        width: 200px;
-        border-radius: 10px;
+        width: 205px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        overflow: hidden;
     }
 
 
