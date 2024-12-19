@@ -168,23 +168,23 @@ body {
     }
 
     .navbar-desktop{
-        display: flex;
-        background-color: bisque;
-        justify-content: space-between;
-        align-items: center;
+        background-color: transparent;
         position: fixed;
         top: 0;
         width: 100%;
     }
 
    
-    .navbar-menu .logo img{
-        width:28%;
+    .logo img{
+        width:20%;
+        margin-left: 100px;
     }
 
     .navbar-menu{
         display: flex;
         align-items: center;
+        justify-content: space-between;
+        margin-right: 10px;
     }
 
     .navbar-menu nav ul{
@@ -210,15 +210,52 @@ body {
     }
 
     .navbar-menu ul .bendera-indonesia{
-        width: 40px;
+        width: 20px;
         height: 20px;
-    }
-
-    .button-desktop{
-        
+        margin-right: 10px;
     }
 
 
+    .arrow.down {
+        border: solid black;
+        border-width: 0 1.5px 1.5px 0;
+        display: inline-block;
+        padding: 2.5px;
+        margin-bottom: 3px;
+        margin-left: 4px; 
+        color: white;
+      }
+
+     .arrow.down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+     }
+
+     .navbar-menu p{
+        color: white;
+     }
+
+     .button-desktop{
+        margin-left: 10px;
+    }
+
+    .button .btn{
+        padding: 5px 16px;
+        margin-left: 5px;
+        background-color: transparent;
+        border: none;
+        font-size: 13.5px;
+        color: white ;
+        font-weight: 550;
+     }
+     .button .btn-1{
+        padding: 8px 18px;
+        font-size: 13.5px;
+        color: white ;
+        font-weight: 550;
+        background-color: #007cff;  
+        border: none;
+        border-radius: 5px;
 }
 
 /* End Style Desktop */
