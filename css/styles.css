@@ -543,11 +543,16 @@ body {
     .navbar-action-mobile {
         display: none;
     }
+
+    .mobile-styling {
+        display: none;
+    }
+    
     body{
         overflow-x: hidden;
     }
 
-    .mobile {
+    .index_card_menu {
         display: none;
     }
 
@@ -555,7 +560,19 @@ body {
         display: none;
     }
 
+    .index_banner_mobile {
+        display: none;
+    }
+
     .navbar-mobile {
+        display: none;
+    }
+
+    .index_card_promo {
+        display: none;
+    }
+
+    .index_navbar_bottom {
         display: none;
     }
 
@@ -568,7 +585,7 @@ body {
     }
 
     .header-bg-desktop {
-        position: absolute;
+        position: absolute; 
     }
 
     .header-bg-desktop img {
