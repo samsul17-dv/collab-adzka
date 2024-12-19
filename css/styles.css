@@ -71,6 +71,10 @@ body {
         display: none;
     }
 
+    .container-card {
+        display: none;
+    }
+
     .navbar-mobile {
         display: var(--flex);
         position: var(--absolute);
@@ -277,12 +281,80 @@ body {
     .card_produk_mobile_img {
         position: absolute;
         right: 1.5rem;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
     }
 
     .card_produk_mobile_img img {
-        width: 150px;
+        width: 170px;
         border-radius: 12px;
+    }
+
+    .index_card_produk_mobile h1 {
+        font-size: 16px;
+        line-height: 1;
+        margin-left: 1.5rem;
+        margin-top: 3.5rem;
+    }
+
+    .label_mobile {
+        display: flex;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        align-items: center;
+        color: var(--color-primary);
+        background-color: rgba(128, 128, 128, 0.173);
+        border-radius: 4px;
+        position: absolute;
+        left: 1.5rem;
+        top: 1rem;
+    }
+
+    #icon_festival {
+        font-weight: 200;
+        margin-left: 10px;
+        font-size: 20px;
+        color: grey;
+    }
+
+    .label_mobile h5 {
+        margin-left: 5px;
+        font-weight: 500;
+        color: gray;
+    }
+
+    .index_card_produk_mobile p {
+        font-size: 11px;
+        margin-left: 1.5rem;
+        margin-top: -3px;
+    }
+
+    .index_card_produk_lokasi {
+        margin-top: -12px !important;
+    }
+
+    .index_card_produk_mobile_bottom h1 {
+        font-size: 16px;
+        line-height: 1;
+        margin-left: 1.5rem;
+        margin-top: 3.5rem;
+    }
+
+    .label_mobile h5 {
+        margin-left: 5px;
+        font-weight: 500;
+        color: gray;
+    }
+
+    .index_card_produk_mobile_bottom p {
+        font-size: 11px;
+        margin-left: 1.5rem;
+        margin-top: -3px;
+    }
+
+    .index_card_produk_lokasi {
+        margin-top: -12px !important;
     }
 }
 
