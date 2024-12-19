@@ -164,7 +164,7 @@ body {
     }
 
     .header-bg-desktop img{
-        width: 100%;
+        width: 100vw;
     }
 
     .navbar-desktop{
@@ -216,28 +216,21 @@ body {
     }
 
 
-    .arrow.down {
-        border: solid black;
-        border-width: 0 1.5px 1.5px 0;
-        display: inline-block;
-        padding: 2.5px;
-        margin-bottom: 3px;
-        margin-left: 4px; 
-        color: white;
-      }
-
-     .arrow.down {
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-     }
-
      .navbar-menu p{
         color: white;
+        margin-top: 20px;
+        display: flex;
+     }
+
+     #arrow {
+        margin-top: -2px;
      }
 
     .button {
         margin-right: 100px;
+        margin-left: -150px;
     }
+
 
     .button .btn{
         padding: 5px 16px;
