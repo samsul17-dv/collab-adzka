@@ -331,7 +331,7 @@ body {
      }
 
      .search input{
-        width: 500px;
+        width: 550px;
         height:50px;
         border-radius: 50px;
         border: none;
@@ -350,6 +350,50 @@ body {
         width: 22px;
         opacity: 50%;
      }
+
+
+     .content-icon {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+     .content-icon-bottom {
+        margin-top: -1rem;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .content-icon-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+    
+    .content-icon-menu img {
+        background-color: rgba(255, 255, 255, 0.5); 
+        border-radius: 50%;
+        padding: 10px;
+        width: 50px;
+        transition: background-color 0.3s;
+    }
+    
+    .content-icon-menu img:hover {
+        background-color: rgba(255, 255, 255, 1); 
+    }
+    
+    .content-icon-menu h5 {
+        margin-top: 10px;
+        color: var(--color-primary);
+    }
+    
+
+     
+    
+    
 }
 
 /* End Style Desktop */
