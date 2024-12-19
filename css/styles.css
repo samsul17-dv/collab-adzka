@@ -200,9 +200,90 @@ body {
         left: 50%;
         width: 100%;
         justify-content: space-evenly;
-        transform: translate(-50%, 120%);
+        transform: translate(-50%, 110%);
     }
 
+    .banner-small-mobile {
+        position: absolute;
+        width: 100vw;
+        text-align: center;
+        height: 40px;
+        background-color: #E7F2FF;
+        top: 14rem;
+    }
+
+    .banner-small-mobile h5 {
+        text-align: center;
+        margin-top: 3%;
+        opacity: 50%;
+    }
+
+    .index_title_small {
+        position: absolute;
+        left: 1rem;
+        top: 17rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .index_title_small h1 {
+        font-size: 18px;
+        color: var(--color-secondary);
+    }
+
+    .index_title_small img {
+        width: 20px;
+        margin-top: 24px;
+        margin-left: 5px;
+    }
+
+    .index_deskripsi_small {
+        position: absolute;
+        left: 1rem;
+        top: 19.8rem;
+    }
+
+    .index_deskripsi_small h5 {
+        font-weight: var(--text-medium);
+        color: var(--color-gray);
+    }
+
+    .index_card_produk_mobile {
+        position: absolute;
+        top:36.5rem;
+        left: 1rem;
+        right: 1rem;
+        z-index: 999;
+        width: 92vw;
+        height: 150px;
+        background-color: var(--color-primary);
+        border-radius: 12px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .index_card_produk_mobile_bottom {
+        position: absolute;
+        top: 46.7rem;
+        left: 1rem;
+        right: 1rem;
+        z-index: 999;
+        width: 92vw;
+        height: 150px;
+        background-color: var(--color-primary);
+        border-radius: 12px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .card_produk_mobile_img {
+        position: absolute;
+        right: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .card_produk_mobile_img img {
+        width: 150px;
+        border-radius: 12px;
+    }
 }
 
 /* End Style Mobile */
