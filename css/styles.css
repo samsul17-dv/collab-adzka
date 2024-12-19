@@ -293,6 +293,9 @@ body {
     .navbar-action-mobile {
         display: none;
     }
+    body{
+        overflow-x: hidden;
+    }
 
     .card_mobile {
         display: none;
@@ -542,11 +545,11 @@ body {
     ul li.active a {
         color: blue;
         font-weight: bold;
-        border: 2px solid blue; /* Menambahkan border */
-        border-radius: 5px; /* Opsional: membuat sudut melengkung */
+        border: 1px solid blue; 
+        border-radius: 20px; 
     }
 
-
+    
     .container-card {
         position: absolute;
         margin: 0 100px;
@@ -596,8 +599,211 @@ body {
         overflow: hidden;
     }
 
+    .container-benner img{
+        width: 100vw;
+        
+        position: absolute;
+        margin-top: 380px;
+    }
+
+
+    /* aa */
+    .container-a{
+        position: absolute;
+        top: 50rem;
+        width: 100vw;
+        height: 100vh;
+    }
+
+     .judul-1 {
+        align-items: center;
+        margin: 0 100px;
+    }
+
+    .judul-1 h2{
+        color: #524949;
+    }
+
+    .judul-1 p{
+        margin-top: -15px;
+        color: #4e5660;
+        font-size: 14px;
+    }
+
+
+    .navbar-hero-1 ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0 60px;
+        margin-top: 10px;
+    }
+
+    .navbar-hero-1 ul li {
+        margin-right: 10px;
+    }
+
+    .navbar-hero-1 ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        border: 1px solid rgb(218, 210, 210);
+        padding: 8px 16px;
+        border-radius: 20px;
+
+    }
+
+    ul li.active-1 a {
+        color: blue;
+        font-weight: bold;
+        border: 1px solid blue; 
+        border-radius: 20px; 
+    }
+
+    
+    .container-card-1 {
+        position: relative; /* Pastikan kontainer tetap berada dalam alur dokumen */
+        margin: 0 100px;
+        margin-top: 8px;
+        display: flex;
+        overflow-x: auto;  /* Mengaktifkan scroll horizontal */
+        white-space: nowrap;  /* Menghindari pemisahan elemen card */
+        padding-bottom: 10px; /* Opsional, memberi ruang bawah */
+    }
+
+    .container-card-1::-webkit-scrollbar {
+        display: none; /* Menyembunyikan scrollbar */
+    }
+
+    .card-1 {
+        width: 300px;
+        height: 225px;
+        border: none;
+        background-color: var(--color-primary);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+        margin-right: 15px;
+        margin-top: 18px;
+        display: inline-block; /* Menjaga semua card dalam satu baris */
+    }
+
+    .cards-wrapper {
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-bottom: 10px;
+    }
+
+    .scroll-btn {
+        background-color: transparent;
+        border: none;
+        font-size: 30px;
+        color: grey;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+    }
+    
+    .left {
+        left: 0;
+    }
+    
+    .right {
+        right: 0;
+    }
+    
+    /* Menyembunyikan scrollbar */
+    .cards-wrapper::-webkit-scrollbar {
+        display: none;
+    }
+
+    .card-1 h5{
+        margin-left: 10px;
+        margin-top: 12px;
+        color: #2d2a2a;
+    }
+
+    .card-1 p{
+        margin-left: 10px; 
+        font-size: 12px;
+        color: #534d4d;
+        line-height: 1.4;
+    }
+
+    .a-1 {
+        margin-top: -12px;
+    }
+
+    .card-1 h4{
+        margin-left: 10px; 
+        margin-top: 40px;
+        color: rgb(231, 58, 58);
+    }
+
+    .md{
+        font-weight: 400;
+    }
+
+    .card-1 .sby{
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .paragraf{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2px;
+        margin-right: 15px;
+        margin-top: 4rem;
+    }
+
+    .paragraf .sj{
+        font-weight: 400;
+        color: grey;
+    }
+
+    .idr{
+        font-size: 16.5px;
+        color: red;
+        font-weight: 700 !important;
+    }
+
+    .right{
+        text-align: right;
+        font-weight: 400;
+        color: grey !important;
+    }
+
+
+    .garis{
+        width: 280px;
+        border: 1px dashed grey;
+        margin-left: 10px;
+        margin-top: -14px;
+        opacity: 20%;
+    }
+
+    .bw{
+        display: flex;
+        align-items: center;
+    }
+    
+    .bw img{
+        border: 1px solid grey;
+        width: 10px;
+        height: 10px;
+        padding: 3px;
+        border-radius: 20px;
+        margin-left: 10px;
+    }
+    
+    .bw p{
+        margin-left: -3px;
+    }
 
 }
+
 
 
 
