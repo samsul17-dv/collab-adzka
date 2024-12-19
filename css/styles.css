@@ -52,11 +52,20 @@ body {
         background-color: var(--color-primary);
     }
 
+    .auya {
+        display: none;
+    }
+
+    .container {
+        display: none;
+    }
+
     .header-bg-mobile img {
         width: 100%;
         height: 200px;
         position: var(--absolute);
         z-index: var(--z-index-10);
+        top: 0;
     }
 
     .header-bg-desktop img {
@@ -68,6 +77,10 @@ body {
     }
 
     .content {
+        display: none;
+    }
+
+    .container-card {
         display: none;
     }
 
@@ -248,13 +261,13 @@ body {
         color: var(--color-gray);
     }
 
+    .card_mobile {
+        margin-top: 36rem;
+    }
+
     .index_card_produk_mobile {
-        position: absolute;
-        top: 36.5rem;
-        left: 1rem;
-        right: 1rem;
-        z-index: 999;
         width: 92vw;
+        margin-left: 1rem;
         height: 150px;
         background-color: var(--color-primary);
         border-radius: 12px;
@@ -262,28 +275,230 @@ body {
     }
 
     .index_card_produk_mobile_bottom {
-        position: absolute;
-        top: 46.7rem;
-        left: 1rem;
-        right: 1rem;
-        z-index: 999;
         width: 92vw;
         height: 150px;
+        margin-top: 10px;
         background-color: var(--color-primary);
         border-radius: 12px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin-left: 1rem;
     }
 
     .card_produk_mobile_img {
         position: absolute;
         right: 1.5rem;
-        margin-top: 1.5rem;
     }
 
     .card_produk_mobile_img img {
-        width: 150px;
+        width: 170px;
+        border-radius: 12px;
+        margin-top: 18px;
+    }
+
+    .index_card_produk_mobile h1 {
+        font-size: 16px;
+        line-height: 1;
+        margin-left: 1.5rem;
+        margin-top: 3.8rem;
+        position: absolute;
+    }
+
+    .label_mobile {
+        display: flex;
+        align-items: center;
+        width: 100px;
+        margin-left: 1.5rem;
+        position: absolute;
+        margin-top: 18px;
+        height: 30px;
+        text-align: center;
+        align-items: center;
+        color: var(--color-primary);
+        background-color: rgba(111, 111, 111, 0.416);
+        border-radius: 4px;
+    }
+
+    #icon_festival {
+        font-weight: 200;
+        margin-left: 10px;
+        font-size: 20px;
+        color: grey;
+    }
+
+    .label_mobile h5 {
+        margin-left: 5px;
+        font-weight: 500;
+        color: gray;
+    }
+
+
+    .index_card_produk_lokasi {
+        margin-top: -12px !important;
+        margin-left: 1.5rem;
+        font-size: 11px;
+    }
+
+    .index_card_produk_mobile_bottom h1 {
+        font-size: 16px;
+        line-height: 1;
+        margin-left: 1.5rem;
+        margin-top: 4rem;
+        position: absolute;
+    }
+
+    .label_mobile h5 {
+        margin-left: 5px;
+        font-weight: 500;
+        color: gray;
+    }
+
+    .index_card_review {
+        font-size: 11px;
+        margin-left: 1.5rem;
+        margin-top: -3px;
+
+    }
+
+    .review_lokasi {
+    padding-top: 105px;
+    }
+
+    .review_lokasi_bottom {
+        padding-top: 105px;
+    }
+
+    .card_mobile button {
+        margin-top: 20px;
+        width: 92vw;
+        height: 55px;
+        text-align: center;
+        border: none;
+        background-color: var(--color-primary);
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 1rem;
+        border-radius: 4px;
+        font-family: var(--font-dm-sans);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .index_banner_mobile {
+        margin-top: 20px;
+    }
+
+    .index_banner_mobile img {
+        width: 92vw;
+        margin-left: 1rem;
         border-radius: 12px;
     }
+
+    .index_card_promo {
+        margin-left: 1rem;
+        margin-top: 20px;
+    }
+
+    .index_card_promo_title {
+        line-height: 1;
+    }
+
+    .index_card_promo_title h1 {
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+
+    .index_card_promo_title h5 {
+        margin-top: 10px;
+        font-weight: var(--text-medium);
+        opacity: 50%;
+    }
+
+    .flex_card_promo {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .card_promo {
+        width: 210px;
+        height: 300px;
+        background-color: var(--color-primary);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 12px;
+    }
+
+    .card_promo_title {
+        margin-top: -2px;
+    }
+
+    .card_promo_img img {
+        width: 210px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .card_promo_title h1 {
+        font-size: 16px;
+        margin-left: 1rem;
+        line-height: 1;
+        margin-right: 1rem;
+    }
+
+    .card_promo_title_img {
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+        gap: 2px;
+    }
+
+    .card_promo_title_img img {
+        width: 14px;
+        margin-top: -5px;
+    }
+
+    .card_promo_title_review_lokasi {
+        margin-left: 1rem;
+        color: #000;
+        opacity: 50%;
+        margin-top: -12px;
+    }
+
+    .title_review {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+    .title_lokasi {
+        font-size: 10px;
+        margin-top: 1px;
+    }
+
+    .card_promo_price {
+        line-height: 1;
+    }
+
+    .normal_price {
+        text-decoration: line-through;
+        font-size: 14px !important;
+        color: #000;
+        opacity: 50%;
+        margin-bottom: 0 !important;
+    }
+
+    .card_promo_price {
+        margin-left: 1rem;
+        margin-top: -0.5rem;
+    }
+
+    .normal_price {
+        font-size: 12px !important;
+    }
+
+    .diskon_price {
+        font-size: 15px !important;
+        margin-top: 4px;
+    }
+
 }
 
 /* End Style Mobile */
