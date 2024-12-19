@@ -63,7 +63,7 @@ body {
 /* Style Desktop */
 @media only screen and (min-width: 768px) {
     .header-bg-destop img {
-        width: 100%;
+        display: none;
     }
 }
 
