@@ -55,6 +55,12 @@ body {
         height: 250px;
     }
 
+    .header-bg-desktop img {
+        display: none;
+    }
+
+
+
 
 }
 
@@ -62,7 +68,7 @@ body {
 
 /* Style Desktop */
 @media only screen and (min-width: 768px) {
-    .header-bg-destop img {
+    .header-bg-mobile img {
         display: none;
     }
 }
